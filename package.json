@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "blade-format": "blade-formatter resources/**/*.blade.php"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.6",
+        "axios": "^0.25",
+        "blade-formatter": "^1.23.5",
+        "daisyui": "^2.14.3",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.4.13",
+        "tailwindcss": "^3.0.24"
+    },
+    "dependencies": {
+        "notyf": "^3.10.0"
+    }
+}
